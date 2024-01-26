@@ -11,3 +11,11 @@ halftime_musicians = pd.read_csv('datasets/halftime_musicians.csv')
 print(super_bowls.head())
 print(tv.head())
 print(halftime_musicians.head())
+
+# Summary of the TV data to inspect
+tv.info()
+
+print('\n')
+
+# Summary of the halftime musician data to inspect
+halftime_musicians.info()
