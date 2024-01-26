@@ -6,3 +6,8 @@ import pandas as pd
 super_bowls = pd.read_csv('datasets/super_bowls.csv')
 tv = pd.read_csv('datasets/tv.csv')
 halftime_musicians = pd.read_csv('datasets/halftime_musicians.csv')
+
+# Display the first five rows of each DataFrame
+print(super_bowls.head())
+print(tv.head())
+print(halftime_musicians.head())
