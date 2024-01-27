@@ -3,6 +3,7 @@
 import pandas as pd
 from matplotlib import pyplot as plt
 
+
 # Load the CSV data into DataFrames
 super_bowls = pd.read_csv('datasets/super_bowls.csv')
 tv = pd.read_csv('datasets/tv.csv')
@@ -20,3 +21,6 @@ print('\n')
 
 # Summary of the halftime musician data to inspect
 halftime_musicians.info()
+
+
+plt.style.use('seaborn')
