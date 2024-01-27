@@ -1,6 +1,7 @@
 #Codes to analyze TV Data
 # Import pandas
 import pandas as pd
+from matplotlib import pyplot as plt
 
 # Load the CSV data into DataFrames
 super_bowls = pd.read_csv('datasets/super_bowls.csv')
