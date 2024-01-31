@@ -31,3 +31,7 @@ plt.xlabel('Combined Points')
 plt.ylabel('Number of Super Bowls')
 plt.show()
 
+# Display the Super Bowls with the highest and lowest combined scores
+print(super_bowls[super_bowls['combined_pts'] > 70])
+print(super_bowls[super_bowls['combined_pts'] < 25])
+
