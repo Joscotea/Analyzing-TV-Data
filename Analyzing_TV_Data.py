@@ -35,3 +35,8 @@ plt.show()
 print(super_bowls[super_bowls['combined_pts'] > 70])
 print(super_bowls[super_bowls['combined_pts'] < 25])
 
+# Plot a histogram of point differences
+plt.hist(super_bowls.difference_pts)
+plt.xlabel('Point Difference')
+plt.ylabel('Number of Super Bowls')
+plt.show()
