@@ -24,3 +24,10 @@ halftime_musicians.info()
 
 # set plotting style
 plt.style.use('seaborn')
+
+# Plot a histogram of combined points
+plt.hist(super_bowls.combined_pts)
+plt.xlabel('Combined Points')
+plt.ylabel('Number of Super Bowls')
+plt.show()
+
